@@ -2,9 +2,10 @@
   "name": "beta app",
   "version": "1.0.0",
   "description": "",
-  "main": "src/sections/index.js",
+  "source": "index.html",
   "scripts": {
     "start": "parcel index.html",
+    "build": "parcel build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
